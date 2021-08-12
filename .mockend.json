@@ -1,7 +1,7 @@
 {
   "Category": {
     "name": { "string": {} },
-    "image": {"string": ["https://picsum.photos/seed/cs1/1600/900"]},
+    "imageUrl": {"string": ["https://picsum.photos/seed/cs1/1600/900"]},
     "itemsCount": {"int": {"min": 0, "max": 999}},
     "posts": {
       "hasMany": "Post"
