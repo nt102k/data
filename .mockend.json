@@ -3,11 +3,11 @@
     "name": { "string": {} },
     "imageUrl": {"string": ["https://picsum.photos/seed/cs1/1600/900"]},
     "itemsCount": {"int": {"min": 0, "max": 999}},
-    "posts": {
-      "hasMany": "Post"
+    "products": {
+      "hasMany": "Product"
     }
   },
-  "Post": {
+  "Product": {
     "title": { "string": {} },
     "comments": {
       "hasMany": "Comment"
