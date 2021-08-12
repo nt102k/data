@@ -12,6 +12,7 @@
     "imageUrl": {"string": ["https://picsum.photos/seed/pd1/1600/900"]},
     "price": {"int": {"min": 0, "max": 9999999}},
     "discount": {"int": {"min": 0, "max": 9999999}},
+    "description": { "string": {} },
     "category": {
       "belongsTo": "Category"
     },
