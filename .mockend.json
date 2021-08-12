@@ -9,6 +9,9 @@
   },
   "Product": {
     "title": { "string": {} },
+    "category": {
+      "belongsTo": "Category"
+    },
     "comments": {
       "hasMany": "Comment"
     }
